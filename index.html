@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NO_BURBUJA.COM — Pop It!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header__container container">
+      <a class="header__logo" href="#">NO_BURBUJA.COM</a>
+
+      <button class="header__burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+
+      <nav class="header__nav nav" id="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#about">NOSOTROS</a></li>
+          <li class="nav__item"><a class="nav__link" href="#products">OFERTAS</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacts">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero__container container">
+      <div class="hero__content">
+        <h1 class="hero__title">POP IT!</h1>
+        <p class="hero__subtitle">¡El mejor juguete antiestres — ¡burbujas infinitas de silicona!</p>
+        <a class="hero__btn btn" href="#products">COMPRAR</a>
+      </div>
+      <div class="hero__image-wrap">
+        <img class="hero__image" src="images/background.png" alt="Pop It helado" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="about__container container">
+      <h2 class="about__title">¿Qué es Pop it?</h2>
+      <p class="about__text">
+        Pop it se traduce literalmente como «reviéntalo». Es un juguete infantil cuyo proceso
+        se puede comparar con el de explotar el plástico burbuja. Pero a diferencia del
+        plástico burbuja, los pop-it se pueden presionar «infinitamente» con las mismas
+        sensaciones y sonidos: decenas de burbujas de silicona simplemente se deslizan
+        hacia el otro lado.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section class="products" id="products">
+    <div class="products__container container">
+      <h2 class="products__title">¡Elige tu Pop-It!</h2>
+      <div class="products__grid">
+
+        <article class="products__card card">
+          <img class="card__image" src="images/square.png" alt="Cuadrado multicolor" />
+          <p class="card__name">Cuadrado multicolor</p>
+          <a class="card__btn btn btn--orange" href="#">COMPRAR</a>
+        </article>
+
+        <article class="products__card card">
+          <img class="card__image" src="images/amongus.png" alt="Among Us, mármol" />
+          <p class="card__name">Among Us, mármol</p>
+          <a class="card__btn btn btn--orange" href="#">COMPRAR</a>
+        </article>
+
+        <article class="products__card card">
+          <img class="card__image" src="images/round.png" alt="Redondo multicolor" />
+          <p class="card__name">Redondo multicolor</p>
+          <a class="card__btn btn btn--orange" href="#">COMPRAR</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RULES ===== -->
+  <section class="rules" id="rules">
+    <div class="rules__container container">
+      <img class="rules__oval" src="images/bg-grid.png" alt="" aria-hidden="true" />
+      <div class="rules__content">
+        <h2 class="rules__title">Reglas del juego</h2>
+        <p class="rules__text">
+          Los jugadores se turnan para presionar las burbujas. Hay que terminar
+          obligatoriamente la fila que se comenzó. Se puede presionar un máximo de
+          3 burbujas a la vez (deben estar juntas). El objetivo es que el rival
+          sea quien haga el último movimiento.
+          ¡Quien haga el último movimiento, pierde!
+        </p>
+      </div>
+      <div class="rules__image-wrap">
+        <img class="rules__photo" src="images/photo.jpg" alt="Niño jugando con Pop It" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contacts">
+    <div class="footer__container container">
+      <a class="footer__logo" href="#">NO_BURBUJA.COM</a>
+      <nav class="footer__nav">
+        <a class="footer__link" href="#">Métodos de pago</a>
+        <a class="footer__link" href="#">Envío</a>
+        <a class="footer__link" href="#">Por mayor</a>
+        <a class="footer__link" href="#">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
